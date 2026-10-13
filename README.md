@@ -1,8 +1,6 @@
 khushi-gami-PR.-6-File-Operator (VIDEO)
 
-# PR.-6-File-Operator
-
-# 📝 Personal Journal Manager
+# PR.-6-File-Operator (Personal Journal Manager)
 
 ## 📌 Project Overview
 Personal Journal Manager is a Python-based command-line application that allows users to add, view, search, and delete journal entries. Each entry is automatically saved with its date and time in a text file.
@@ -86,10 +84,10 @@ Specific file exceptions are caught before the general `OSError`.
 ## 📂 Project Structure
 
 ```text
-Personal-Journal-Manager/
-├── your_filename.py
-└── File Operator/
-    └── journal.txt
+File Operator/
+├── file-operator.py           ---->  main program file
+├── file-operator-ui.py        ---->  project ui code file
+└── journal.txt                ---->  creates when user add journal entries
 ```
 
 The `journal.txt` file stores the journal entries. The program does not automatically create the parent folder.
