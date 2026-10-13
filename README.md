@@ -1,4 +1,5 @@
-khushi-gami-PR.-6-File-Operator (VIDEO)
+PR.-6-File-Operator (VIDEO)
+
 
 # PR.-6-File-Operator (Personal Journal Manager)
 
