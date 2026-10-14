@@ -71,17 +71,6 @@ Specific file exceptions are caught before the general `OSError`.
 - `if`, `elif`, and `else`: Control menu selection, input validation, search results, and deletion confirmation.
 - `break`: Exits a loop when the user chooses to exit or finishes the deletion confirmation.
 
-## ▶️ How to Run
-1. Install Python 3.
-2. Save the code in a Python file.
-3. Ensure the `File Operator` folder exists in the working directory.
-4. Open a terminal in the project directory.
-5. Run the program:
-
-   `python your_filename.py`
-
-   Replace `your_filename.py` with your actual Python filename.
-
 ## 📂 Project Structure
 
 ```text
