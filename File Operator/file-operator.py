@@ -184,9 +184,9 @@ while True:
     print("2. View All Entries")
     print("3. Search for an Entry")
     print("4. Delete All Entries")
-    print("5. Exit")
-    print("6. Demonstrate x Mode")
-    print("7. Demonstrate w Mode")
+    print("5. Demonstrate x Mode")
+    print("6. Demonstrate w Mode")
+    print("7. Exit")
     print()
 
     choice = int_input("Select an option: ")
@@ -211,17 +211,17 @@ while True:
 
         elif choice == 5:
 
-            print()
-            print("Thank you for using Personal Journal Manager. Goodbye!")
-            break
+            journal.x_mode()
 
         elif choice == 6:
 
-            journal.x_mode()
-
+            journal.w_mode()
+        
         elif choice == 7:
 
-            journal.w_mode()
+            print()
+            print("Thank you for using Personal Journal Manager. Goodbye!")
+            break
 
     except FileExistsError:
         print("FileExistsError: The x-mode demo file already exists. It was not overwritten.")
